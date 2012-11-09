@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Istv&aacute;n K&oacute;kai]]></title>
   <link href="http://ikokai.github.com/atom.xml" rel="self"/>
   <link href="http://ikokai.github.com/"/>
-  <updated>2012-06-27T14:30:34+02:00</updated>
+  <updated>2012-11-09T09:49:04+01:00</updated>
   <id>http://ikokai.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
-    
+    <name><![CDATA[Istvan Kokai]]></name>
+    <email><![CDATA[support@istvankokai.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
