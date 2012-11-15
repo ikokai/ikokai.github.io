@@ -63,6 +63,28 @@
 	    a:hover, a:focus { color: #aaa; }
 	    p a, p a:visited { line-height: inherit; }
 
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe,  
+        .video-container object,  
+        .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-wrapper {
+        width: 480px;
+        max-width: 100%;
+        }
      </style>
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -96,7 +118,12 @@
 	<div class="container" >
         <div class="white padded"> 
             <h1>blizzard of rocks</h1>
-            <img class="scale-with-grid" src="images/screen.png"/>
+            <!--<img class="scale-with-grid" src="images/screen.png"/>-->
+            <div class="videw-wrapper">
+                <div class="video-container">
+                    <iframe width="480" height="360" src="http://www.youtube.com/embed/XDgD05bvoKc" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
             <p>A space shooter in the arcade tradition for the iPad. Simple intuitive controls and mechanics:</p>
             <ul class="square">
                 <li><strong>Touch and drag</strong>: The rocket will follow your finger.</li>
